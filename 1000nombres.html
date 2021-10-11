@@ -1,0 +1,30 @@
+<script>
+var nombre =["Eduardo","Juana","Israel", "Maria", "Fernando"];
+var apellidoP = ["Hernandez","Flores", "Gonzales", "Chavez", "Perez"];
+var apellidoM = ["Rosales", "Ramirez", "Fuentes", "Sanchez" ,"Martinez"];
+var sexo = ["Masculino","Femenino"];
+var edad = ["15","16","5","20","10"];
+
+
+
+for(i=1 ; i<=1000 ; i++){
+var a = Math.floor(Math.random()*4);
+var b = Math.floor(Math.random()*1);
+    function persona (){
+var XD = {
+    "persona1" : {
+        "nombre" : nombre[a],
+        "apellidoP" : apellidoP[a],
+        "apellidoM" : apellidoM[a],
+        "sexo" : sexo[b],
+        "edad" : edad[a],
+    }
+    
+}
+console.log(XD);
+}
+    persona(nombre[a],apellidoP[a],apellidoM[a],sexo[b],edad[a]);
+
+  
+}
+</script>
